@@ -132,7 +132,7 @@ async function fetchClassroomData() {
         renderAssignments();
     } catch (error) {
         console.error(error);
-        assignmentsGrid.innerHTML = '<p class="text-muted" style="grid-column: 1/-1; text-align:center; font-size: 1.2rem; padding: 2rem;">You have no assignments or classes.</p>';
+        alert("Failed to sync Classroom data. Make sure your account has access.");
     } finally {
         setLoading(false);
     }
