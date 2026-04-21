@@ -149,7 +149,7 @@ function setLoading(isLoading) {
 }
 
 function populateCourseFilter() {
-    courseFilter.innerHTML = '<option value="all">All Courses</option>';
+    courseFilter.innerHTML = '<option value="all">All Classes</option>';
     coursesList.forEach(c => {
         const opt = document.createElement('option');
         opt.value = c.id;
