@@ -387,7 +387,7 @@ function generateAndRenderRoutine() {
     let scheduleHTML = `
         <div class="routine-progress-container">
             <div class="routine-progress-fill" id="routine-progress-fill" style="width: ${pct}%"></div>
-            <div class="routine-progress-text" id="routine-progress-text">${pct}% Class Progress</div>
+            <div class="routine-progress-text" id="routine-progress-text">${pct}%Progress</div>
         </div>
     `;
 
